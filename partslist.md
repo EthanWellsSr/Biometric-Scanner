@@ -13,11 +13,11 @@ Wiring: [docs/wiring-diagram.png](docs/wiring-diagram.png) · pinout tables in t
 | 12 V DC locking solenoid | 1 | Lock mechanism — retracts to open the box on a fingerprint match | Have | — | — | — | |
 | 12 V DC AC-DC power adapter | 1 | Main power for the Arduino (VIN) and the solenoid | Have | — | — | — | |
 | DC barrel jack adapter (female, screw terminal) | 1 | Splits 12 V from the adapter to the Arduino and relay/solenoid circuit | Have | — | — | — | |
-| Rechargeable battery pack | 1 | Backup power so the sensor and lock work during outages | Have | — | — | — | |
+| Konnected Backup Battery | 1 | Backup power so the sensor and lock work during outages | Have | $39.20 | 2025-11-05 | Ethan Wells | [Konnected](https://konnected.io/products/backup-battery?variant=49079412851003) |
 | Breadboard | 1 | Prototyping and power distribution | Have | — | — | — | |
 | Jumper wires | 1 set | Connections between sensor, relay, solenoid, and Arduino | Have | — | — | — | |
 | USB A-to-B cable | 1 | Upload the sketch and view the serial monitor | Have | — | — | — | |
 | Enclosure / box | 1 | Secure storage box housing the lock and electronics | Have | — | — | — | |
-| **Running total (priced items only)** | | | | **$5.00** | | | |
+| **Running total (priced items only)** | | | | **$44.20** | | | |
 
-Pricing may vary depending on current market; prices listed are item prices at the time of purchase, before tax. The Arduino case was listed at $5.90 when rechecked on 2026-09-24. The [Project Analysis Paper](Project%20Analysis%20Paper.pdf) puts the final build cost at about $85 (estimate was about $100).
+Pricing may vary depending on current market; prices listed are item prices at the time of purchase, before tax. The Arduino case was listed at $5.90 when rechecked on 2026-09-24. The Konnected battery was listed at $49.00 and purchased for $39.20 before tax on 2025-11-05. The [Project Analysis Paper](Project%20Analysis%20Paper.pdf) puts the final build cost at about $85 (estimate was about $100).

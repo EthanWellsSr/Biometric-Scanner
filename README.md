@@ -41,7 +41,7 @@ that demonstrates embedded control, sensor integration, and secure storage desig
 
 ### Wiring
 
-![Wiring diagram](docs/wiring-diagram.png)
+![Wiring diagram](docs/schematic-official.png)
 
 The 12 V adapter powers both the Arduino and the solenoid. The solenoid is switched
 through the relay — never driven directly from an Arduino pin — and all grounds are
