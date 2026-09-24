@@ -19,6 +19,7 @@ that demonstrates embedded control, sensor integration, and secure storage desig
 | `BiometricLockingBox/BiometricLockingBox.ino` | Arduino sketch: matching loop that unlocks the solenoid on a fingerprint match. Adapted from the Adafruit `fingerprint` example. |
 | `docs/` | Wiring diagram and project diagrams (see [Wiring](#wiring) and [Project documentation](#project-documentation)). |
 | `BIOMETRIC SCANNER BOX (1).pptx` | Full project proposal deck. |
+| `Project Analysis Paper.pdf` | Project analysis paper. |
 | `LICENSE` | BSD 3-Clause license. |
 
 ---
