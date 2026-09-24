@@ -4,6 +4,9 @@ A fingerprint-activated locking box built on an Arduino Uno. An optical fingerpr
 sensor authenticates the user, and on a successful match the Arduino drives a relay
 that releases a locking solenoid.
 
+This project was completed for Engineering Design and Project Management at the
+University of Houston-Clear Lake (UHCL) during Fall 2025.
+
 Traditional safety boxes rely on keys or passcodes that are easy to lose, and
 off-the-shelf biometric boxes are expensive. This project is a low-cost alternative
 that demonstrates embedded control, sensor integration, and secure storage design.
