@@ -1,17 +1,22 @@
 /***************************************************
-  This is an example sketch for our optical Fingerprint sensor
+  Biometric Locking Box
 
-  Designed specifically to work with the Adafruit BMP085 Breakout
-  ----> http://www.adafruit.com/products/751
+  Fingerprint-activated locking box built on an Arduino Uno. An optical
+  fingerprint sensor authenticates the user over TTL serial; on a match the
+  Arduino pulls the relay pin LOW to energize a 12 V locking solenoid, then
+  releases it to re-lock.
 
-  These displays use TTL Serial to communicate, 2 pins are required to
-  interface
+  This sketch only MATCHES against templates already stored on the sensor.
+  Enroll fingerprints first with the Adafruit library's "enroll" example.
+
+  Abigail Duran, Ethan Wells, Alexis Perez
+
+  Fingerprint handling adapted from the Adafruit Fingerprint Sensor Library
+  example written by Limor Fried/Ladyada for Adafruit Industries.
+  BSD license, all text above must be included in any redistribution.
   Adafruit invests time and resources providing this open source code,
   please support Adafruit and open-source hardware by purchasing
   products from Adafruit!
-
-  Written by Limor Fried/Ladyada for Adafruit Industries.
-  BSD license, all text above must be included in any redistribution
  ****************************************************/
 
 

@@ -1,0 +1,13 @@
+# Arduino compiled output ("Export Compiled Binary" / arduino-cli --output-dir)
+build/
+*.hex
+*.elf
+*.bin
+
+# Office lock / autosave files
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# macOS
+.DS_Store
