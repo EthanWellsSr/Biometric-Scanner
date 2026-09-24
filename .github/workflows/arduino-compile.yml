@@ -1,0 +1,30 @@
+name: Arduino Compile
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+
+      - name: Install pinned board core
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr@1.8.8
+
+      - name: Install pinned fingerprint library
+        run: arduino-cli lib install "Adafruit Fingerprint Sensor Library@2.1.4"
+
+      - name: Compile for Arduino Uno
+        run: arduino-cli compile --fqbn arduino:avr:uno BiometricLockingBox

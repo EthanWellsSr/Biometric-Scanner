@@ -1,5 +1,7 @@
 # Biometric Locking Box
 
+[![Arduino Compile](https://github.com/EthanWellsSr/Biometric-Scanner/actions/workflows/arduino-compile.yml/badge.svg)](https://github.com/EthanWellsSr/Biometric-Scanner/actions/workflows/arduino-compile.yml)
+
 A fingerprint-activated locking box built on an Arduino Uno. An optical fingerprint
 sensor authenticates the user, and on a successful match the Arduino drives a relay
 that releases a locking solenoid.
@@ -73,8 +75,13 @@ instead.
 ## Software
 
 - [Arduino IDE](https://www.arduino.cc/en/software)
+- Arduino Uno Rev3 using the Arduino AVR Boards core **1.8.8**
 - [Adafruit Fingerprint Sensor Library](https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library)
-  (install via **Tools → Manage Libraries… → "Adafruit Fingerprint Sensor Library"**)
+  **2.1.4** (install via **Tools → Manage Libraries… → "Adafruit Fingerprint Sensor Library"**)
+
+These pinned versions form the repository's reproducible compile baseline. The exact
+Arduino IDE and AVR core versions used for the Fall 2025 prototype were not recorded;
+the included library archive confirms Adafruit Fingerprint Sensor Library 2.1.4.
 
 ### Serial settings
 
